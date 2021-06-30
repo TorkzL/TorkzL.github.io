@@ -1,0 +1,135 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FF8C00;
+}
+
+center {
+    background-color: black;
+}
+
+.parallax {
+    
+    background-image: url("Logo.jpg");
+     
+   
+    min-height: 800px ;
+     
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+h1, h2 {
+    text-align: center;
+}
+
+#Taco {
+    float: left;
+    clear: left;
+    padding: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+    width:160px;
+    height: 160px;
+    border:solid 5px;
+    border-radius: 160px;;
+}
+
+#TextoTaco {
+    float: right;
+    padding: 10px;
+}
+
+#Fer {
+    float: left;
+    padding: 5px;
+    width:160px;
+    margin-right: 15px;
+    margin-left: 15px;
+    height: 160px;
+    border:solid 5px;
+    border-radius: 160px;;
+}
+
+#TextoFer {
+    float: right;
+    padding: 10px;
+}
+
+#Fallen {
+    float: left;
+    padding: 5px;
+    width:160px;
+    margin-right: 15px;
+    margin-left: 15px;
+    height: 160px;
+    border:solid 5px;
+    border-radius: 160px;;
+}
+
+#TextoFallen {
+    float: right;
+    padding: 10px;
+}
+
+#Coldzera  {
+    float: left;
+    padding: 5px;
+    width:160px;
+    margin-right: 15px;
+    margin-left: 15px;
+    height: 160px;
+    border:solid 5px;
+    border-radius: 160px;;
+}
+
+#TextoColdzera {
+    float: right;
+    padding: 10px;
+}
+
+#button   {
+    color:darkorange ;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color:black ;
+    font-size: .9em;
+    width:100px;
+    height:100px;
+    border:solid 1px;
+    border-radius:0px 20px 0px 20px;
+}
+
+
+p {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
